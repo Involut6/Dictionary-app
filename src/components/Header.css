@@ -17,7 +17,7 @@
 
 .title{
     text-align: center;
-    @media (max-width: 767px) {
+    @media screen (max-width: 767px) {
         text-align: left;
     }
 }
