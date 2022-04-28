@@ -1,0 +1,84 @@
+.App {
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    color: #1f2833;
+    transform: scale(2, 2);
+}
+
+.error {
+    text-align: center;
+    color:red;
+}
+
+/* Random */
+.random {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.random h1 {
+    display: inline;
+    color: #0B0C10;
+    margin: 20px 10px 0 0; 
+}
+
+.random h2 {
+    color: #1f2833;
+    margin-bottom: 0;
+}
+
+.random h4 {
+    margin: 5px 0;
+}
+
+.random p {
+    margin-top: 5px;
+}
+
+/* Result */
+.result {
+    margin: 50px;
+}
+
+.result h1 {
+    color: #0B0C10;
+    margin-bottom: 0;
+}
+
+.phonetic {
+    color: #0B0C10;
+}
+
+h3 {
+    color: #45a29e;
+}
+
+.syn, .ant {
+    background-color: #0B0C10;
+    color: #fff;
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 3px 3px;
+}
+
+.syns h4, .ants h4 {
+    margin-bottom: 0;
+}
+
+.word h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li {
+    margin: 10px 0;
+}

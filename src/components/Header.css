@@ -1,0 +1,39 @@
+.header {
+    margin: 0 0 50px;
+    background-color: #0B0C10;
+    text-align: center;
+    justify-content: center;
+    padding: 1px 10px 10px;
+    font-family: Montserrat
+}
+
+h1 {
+    color: #66fcf1;
+}
+
+.intro {
+    color:#fff;
+    font-size: x-small;
+}
+
+input {
+    border: 2px solid #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+button {
+    margin: 10px 0 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 2px solid #66fcf1;
+    color: #66fcf1;
+    font-weight: bold;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #66fcf1;
+    border-color: #66fcf1;
+    color:#0B0C10;
+}
