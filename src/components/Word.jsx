@@ -20,10 +20,10 @@ const Word = ({ data, random }) => {
     <div>
       {data ? <div className='word'>
           <h1>{data[0].word.toUpperCase()}</h1>
-          <VolumeUpRoundedIcon onClick={pronounce}/>
+          <VolumeUpRoundedIcon sx={{ fontSize: 30 }} onClick={pronounce}/>
           <p>{data[0].phonetic === ""? data.map(phonetic => phonetic.phonetic): data[0].phonetic}</p>
       </div>: (random && <div>
-                    <h1>New word</h1><LightbulbSharpIcon sx={{color: "aqua"}} />
+                    <h1>New word</h1><LightbulbSharpIcon sx={{color: "aqua", fontSize: 30}} />
                     <h2>{random[0].word}:</h2>
                     <h4>{random[0].definition}</h4>
                     <p>Pronunciation: {random[0].pronunciation}</p>

@@ -1,3 +1,11 @@
+:root{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .App {
     font-family: Montserrat;
     justify-content: center;
@@ -5,51 +13,78 @@
 }
 
 .loading {
-    position:absolute;
-    top: 50%;
-    left: 40%;
+    padding-top: 50px;
+    text-align: center;
     color: #1f2833;
-    transform: scale(2, 2);
+    font-size: 4.5rem;
 }
 
 .error {
+    padding-top: 50px;
     text-align: center;
     color:red;
+    font-size: 4.5rem;
+
 }
 
 /* Random */
 .random {
+    padding-top: 50px;
     display: inline-block;
-    margin-left: 50px;
+    padding-left: 4rem;
+    @media (max-width: 767px) {
+        padding-left: 1rem;
+    }
+    
 }
 
 .random h1 {
     display: inline;
     color: #0B0C10;
-    margin: 20px 10px 0 0; 
+    font-size: 4.5rem;
+
+     
 }
 
 .random h2 {
     color: #1f2833;
-    margin-bottom: 0;
+    font-size: 3rem;
+    
 }
 
 .random h4 {
     margin: 5px 0;
+    font-size: 2rem;
 }
 
 .random p {
     margin-top: 5px;
+    font-size: 2rem;
 }
 
 /* Result */
+
+.meaning{
+    padding: 2rem 0;
+    border-bottom: 1px solid grey;
+}
+
 .result {
-    margin: 50px;
+    padding-top: 50px;
+    padding-left: 4rem;
+    @media (max-width: 767px) {
+        padding-left: 1rem;
+    }
 }
 
 .result h1 {
     color: #0B0C10;
     margin-bottom: 0;
+    font-size: 4.5rem;
+}
+
+.result li, span, p {
+    font-size: 2rem;
 }
 
 .phonetic {
@@ -58,6 +93,7 @@
 
 h3 {
     color: #45a29e;
+    font-size: 3rem;
 }
 
 .syn, .ant {
@@ -68,10 +104,12 @@ h3 {
     display: inline-block;
     text-align: center;
     margin: 5px 3px 3px;
+    font-size: 2rem;
 }
 
 .syns h4, .ants h4 {
     margin-bottom: 0;
+    font-size: 2rem;
 }
 
 .word h1 {

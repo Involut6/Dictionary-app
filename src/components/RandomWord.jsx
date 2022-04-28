@@ -21,7 +21,7 @@ const RandomWord = () => {
     }, );
 
     return (
-        <div  className='random'>
+        <div  className='random pad-40-left'>
             {response && (
                 <Word random={response}/>
             )

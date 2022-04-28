@@ -1,35 +1,63 @@
 .header {
-    margin: 0 0 50px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #0B0C10;
-    text-align: center;
-    justify-content: center;
-    padding: 1px 10px 10px;
-    font-family: Montserrat
+    font-family: Montserrat;
+    color: #66fcf1;
+    font-size: 3rem;
+    padding-left: 4rem;
+    @media (max-width: 767px) {
+        align-items: left;
+        padding-left: 1rem;
+    }
 }
 
-.header h1 {
-    color: #66fcf1;
-    font-size: 4rem;
+.title{
+    text-align: center;
+    @media (max-width: 767px) {
+        text-align: left;
+    }
 }
 
 .intro {
     color:#fff;
+    font-size: 2rem;
+}
+
+.search{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    border-radius: 2.5rem;
+    background-color: #fff;
+    padding: 1rem 0;
+    padding-left: 1.5rem;
+    @media (max-width: 767px) {
+        width: 95%;
+    }
+
 }
 
 input {
-    border: 2px solid #fff;
-    border-radius: 2px;
-    padding: 5px;
+    width: 92%;
+    font-size: 2rem;
+    border: none;
+    padding: .4rem ;
+   
+}
+input:focus{
+    outline: none;
 }
 
 button {
-    margin: 10px 0 10px;
-    border-radius: 2px;
     background-color: transparent;
-    border: 2px solid #66fcf1;
+    border: none;
     color: #66fcf1;
     font-weight: bold;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 button:hover {

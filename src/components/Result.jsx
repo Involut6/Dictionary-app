@@ -45,7 +45,7 @@ const Result = () => {
 
     console.log(response)
   return (
-    <div className='result'>
+    <div className='result pad-40-left'>
         <Word data={response} />
         <Meaning data={response} />
     </div>

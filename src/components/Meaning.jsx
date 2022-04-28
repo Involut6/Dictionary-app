@@ -7,11 +7,10 @@ const Meaning = ({ data }) => {
   return (
     <div>
         {data && data.map(result => result.meanings.map(meaning => 
-            <div key={nanoid()}>
+            <div className="meaning" key={nanoid()}>
                 <Definitions key={nanoid()} meaning={meaning} />
                 <Synonyms key={nanoid()} meaning={meaning}/>
                 <Antonyms key={nanoid()} meaning={meaning}/>
-                <hr></hr>
             </div>
         ))}
     </div>
