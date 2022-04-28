@@ -18,7 +18,7 @@ const RandomWord = () => {
     useEffect(() => {
         if (!response) {
         fetchRandomWord();}
-    }, [response]);
+    }, );
 
     return (
         <div  className='random'>
