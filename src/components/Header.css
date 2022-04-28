@@ -7,13 +7,13 @@
     font-family: Montserrat
 }
 
-h1 {
+.header h1 {
     color: #66fcf1;
+    font-size: 4rem;
 }
 
 .intro {
     color:#fff;
-    font-size: x-small;
 }
 
 input {

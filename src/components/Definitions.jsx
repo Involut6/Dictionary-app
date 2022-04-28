@@ -7,7 +7,7 @@ const Definitions = ({ meaning }) => {
         <h3>{meaning.partOfSpeech}</h3>
         {meaning.definitions.map(def => 
         <div key={nanoid()}>
-            <li key={nanoid()}>{def.definition}</li>
+            <strong><li key={nanoid()}>{def.definition}</li></strong>
             {def.example?<span className="sample"><strong>Example:</strong> </span>:null}<span key={nanoid()}>{def.example}</span>
         </div>)}
     </div>
