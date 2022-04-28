@@ -4,8 +4,7 @@ import Word from "./Word";
 
 const RandomWord = () => {
     const [response, setResponse] = useState(null);
-    const [error, setError] = useState("");
-    const [loading, setLoading] = useState(false);
+    const [setError] = useState("");
 
     const fetchRandomWord = async () => {
         
