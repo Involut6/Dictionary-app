@@ -1,34 +1,47 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useState, useEffect } from "react";
 import { SearchContext } from "../App";
-import axios from 'axios';
-
+import axios from "axios";
+import "./suggestions.css";
 
 const Suggestion = () => {
-    const { inputValue } = useContext(SearchContext);
-    const [response, setResponse] = useState(null);
-    const [setError] = useState("");
+  const { inputValue, setInputValue, setSearchValue } = useContext(SearchContext);
+  const [response, setResponse] = useState(null);
+  const [setError] = useState("");
 
-    const fetchSuggestion = async () => {
-        if (inputValue) {
-        
-        try {
-            const res = await axios.get(`https://api.datamuse.com/sug?s=${inputValue}`);
-            setResponse(res.data);
-        } catch (err) {
-            setError(err);
-        }
-    }
-    }
-    useEffect(() => {
-        fetchSuggestion();
-    });
+  const handleClick = (e) => {
+      setSearchValue(e.target.textContent);
+      setInputValue("");
+  }
 
-    console.log(response);
+  const fetchSuggestion = async () => {
+    if (inputValue) {
+      try {
+        const res = await axios.get(
+          `https://api.datamuse.com/sug?s=${inputValue}`
+        );
+        setResponse(res.data);
+      } catch (err) {
+        setError(err);
+      }
+    }
+  };
+  useEffect(() => {
+    fetchSuggestion();
+  });
 
   return (
-      <div>{response && <div className='suggestions'>{response.map(suggest => 
-        <div className='suggestion' key={suggest.score}>{suggest.word}</div>)}</div>}</div>
-  )
-}
+    <>
+      {response && (
+        <div  className="suggestions">
+          {response.map(suggest => (
+            <p onClick={handleClick} className="suggestion" key={suggest.score}>
+              {suggest.word}
+            </p>
+          ))}
+        </div>
+      )}
+    </>
+  );
+};
 
 export default Suggestion;

@@ -44,7 +44,6 @@ const Result = () => {
         return <h1 className='error'>Word not found!</h1>
     }
 
-    console.log(response)
   return (
     <div className='result'>
         <Word data={response} />

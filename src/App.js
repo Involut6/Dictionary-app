@@ -4,7 +4,6 @@ import './App.css';
 import Result from "./components/Result";
 import RandomWord from "./components/RandomWord";
 
-
 export const SearchContext = createContext();
 
 function App() {
