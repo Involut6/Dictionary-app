@@ -1,6 +1,7 @@
 import React from 'react'
 import VolumeUpRoundedIcon from '@mui/icons-material/VolumeUpRounded';
 import LightbulbSharpIcon from '@mui/icons-material/LightbulbSharp';
+import './word.css';
 
 const Word = ({ data, random }) => {
 
@@ -23,9 +24,9 @@ const Word = ({ data, random }) => {
           <VolumeUpRoundedIcon sx={{ fontSize: 30 }} onClick={pronounce}/>
           <p>{data[0].phonetic === ""? data.map(phonetic => phonetic.phonetic): data[0].phonetic}</p>
       </div>: (random && <div>
-                    <h1>New word</h1><LightbulbSharpIcon sx={{color: "aqua", fontSize: 30}} />
-                    <h2>{random[0].word}:</h2>
-                    <h4>{random[0].definition}</h4>
+                    <span className='newWord'>New word</span><LightbulbSharpIcon sx={{color: "aqua", fontSize: 30}} />
+                    <h2>{random[0].word}</h2>
+                    <span>Meaning: </span><span>{random[0].definition}</span>
                     <p>Pronunciation: {random[0].pronunciation}</p>
                 </div>)}
     </div>

@@ -1,0 +1,13 @@
+span {
+    font-size: 2rem;
+}
+
+.definition h2 {
+    color: #45a29e;
+    font-size: 3rem;
+}
+
+.definition li {
+    margin: 10px 0;
+    font-size: 2rem;
+}

@@ -1,7 +1,7 @@
-import { useContext } from "react";
-import { SearchContext } from "../App";
+import { useContext } from 'react';
+import { SearchContext } from '../App';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import "./Header.css";
+import './Header.css';
 
 const Header = () => {
   const { inputValue, setInputValue } = useContext(SearchContext);

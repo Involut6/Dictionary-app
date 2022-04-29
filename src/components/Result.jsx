@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { useContext, useState, useEffect } from 'react'
 import { SearchContext } from '../App';
-import Meaning from "./Meaning";
-import Word from "./Word";
+import Meaning from './Meaning';
+import Word from './Word';
+import './result.css';
 
 axios.defaults.baseURL = "https://api.dictionaryapi.dev/api/v2/entries/en/"
 

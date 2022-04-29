@@ -1,7 +1,8 @@
-import Antonyms from "./Antonyms";
-import Definitions from "./Definitions";
+import Antonyms from './Antonyms';
+import Definitions from './Definitions';
 import Synonyms from "./Synonyms";
-import { nanoid } from 'nanoid'
+import { nanoid } from 'nanoid';
+import './meaning.css';
 
 const Meaning = ({ data }) => {
   return (

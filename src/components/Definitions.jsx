@@ -1,9 +1,10 @@
 import React from 'react'
 import { nanoid } from 'nanoid'
+import './definitions.css';
 
 const Definitions = ({ meaning }) => {
   return (
-    <div>
+    <div className='definition'>
         <h2>{meaning.partOfSpeech}</h2>
         {meaning.definitions.map(def => 
         <div key={nanoid()}>

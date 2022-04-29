@@ -1,0 +1,10 @@
+.random {
+    padding-top: 50px;
+    padding-left: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .random {
+        padding-left:  1rem;
+    }
+}
