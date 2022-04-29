@@ -8,27 +8,16 @@
     font-family: Montserrat;
     color: #66fcf1;
     font-size: 3rem;
-    padding-left: 4rem;
-    @media (max-width: 767px) {
-        align-items: left;
-        padding-left: 1rem;
-        font-size: 6rem;
-    }
+  
 }
 
 .title{
     text-align: center;
-    @media only screen and (max-width: 767px) {
-        text-align: left;
-    }
 }
 
 .intro {
     color:#fff;
     font-size: 2rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 3rem;
-    }
 }
 
 .search{
@@ -39,10 +28,6 @@
     background-color: #fff;
     padding: 1rem 0;
     padding-left: 1.5rem;
-    @media (max-width: 767px) {
-        width: 95%;
-    }
-
 }
 
 input {
@@ -56,16 +41,28 @@ input:focus{
     outline: none;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    color: #66fcf1;
-    font-weight: bold;
-    /* padding: 5px; */
-}
-
-button:hover {
-    background-color: #66fcf1;
-    border-color: #66fcf1;
-    color:#0B0C10;
+@media (max-width: 767px) {
+    .header {
+        align-items: left;
+        padding-left: 1rem;
+        font-size: 6rem;
+    }
+    .title{
+        text-align: left;
+    }
+    .search {
+        width: 95%;
+    }
+    .random .result {
+        padding-left: 1rem;
+    }
+    .error, .loading, .random h1, .result h1 {
+        font-size: 6rem;
+    }
+    h4, .intro, .syn, .ant, .result li, span, p{
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 4.5rem;
+    }
 }

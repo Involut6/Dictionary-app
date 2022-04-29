@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid'
 const Definitions = ({ meaning }) => {
   return (
     <div>
-        <h3>{meaning.partOfSpeech}</h3>
+        <h2>{meaning.partOfSpeech}</h2>
         {meaning.definitions.map(def => 
         <div key={nanoid()}>
             <strong><li key={nanoid()}>{def.definition}</li></strong>

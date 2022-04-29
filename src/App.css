@@ -17,9 +17,6 @@
     text-align: center;
     color: #1f2833;
     font-size: 4.5rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 6rem;
-    }
 }
 
 .error {
@@ -27,10 +24,6 @@
     text-align: center;
     color:red;
     font-size: 4.5rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 6rem;
-    }
-
 }
 
 /* Random */
@@ -38,46 +31,27 @@
     padding-top: 50px;
     display: inline-block;
     padding-left: 4rem;
-    @media only screen and (max-width: 767px) {
-        padding-left: 1rem;
-    }
-    
 }
 
 .random h1 {
     display: inline;
     color: #0B0C10;
     font-size: 4.5rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 6rem;
-    }
-
-     
 }
 
 .random h2 {
     color: #1f2833;
     font-size: 3rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 4.5rem;
-    }
-    
 }
 
 .random h4 {
     margin: 5px 0;
     font-size: 2rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 3rem;
-    }
 }
 
 .random p {
     margin-top: 5px;
     font-size: 2rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 3rem;
-    }
 }
 
 /* Result */
@@ -90,37 +64,25 @@
 .result {
     padding-top: 50px;
     padding-left: 4rem;
-    @media only screen and (max-width: 767px) {
-        padding-left: 1rem;
-    }
 }
 
 .result h1 {
     color: #0B0C10;
     margin-bottom: 0;
     font-size: 4.5rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 6rem;
-    }
 }
 
 .result li, span, p {
     font-size: 2rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 3rem;
-    }
 }
 
 .phonetic {
     color: #0B0C10;
 }
 
-h3 {
+h2 {
     color: #45a29e;
     font-size: 3rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 4.5rem;
-    }
 }
 
 .syn, .ant {
@@ -132,17 +94,11 @@ h3 {
     text-align: center;
     margin: 5px 3px 3px;
     font-size: 2rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 3rem;
-    }
 }
 
 .syns h4, .ants h4 {
     margin-bottom: 0;
     font-size: 2rem;
-    @media only screen and (max-width: 767px) {
-        font-size: 3rem;
-    }
 }
 
 .word h1 {
