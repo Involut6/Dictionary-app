@@ -3,9 +3,10 @@
     height: 35vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     font-family: Montserrat;
+    padding-top: 4rem;
     padding-left: 4rem;
     color: #66fcf1;
     font-size: 3rem;
@@ -15,20 +16,31 @@
 .intro {
     color:#fff;
     font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 .search{
+    position: absolute;
+    top: 55%;
     width: 65%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     border-radius: 2.5rem;
     background-color: #fff;
     padding: 1rem 0;
     padding-left: 1.5rem;
+    color: black;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px 0px black;
+}
+
+.searchBar {
+    width: 98%;
+    display: flex;
 }
 
 input {
-    width: 95%;
+    width: 100%;
     font-size: 2rem;
     border: none;
     padding: .4rem ;
@@ -38,14 +50,28 @@ input:focus{
     outline: none;
 }
 
+.suggestions {
+    width: 95%;
+}
+
+.suggestion {
+    font-size: 2rem;
+    border-top: 1px solid rgb(233, 228, 228);
+}
+
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
 
 @media only screen and (max-width: 767px) {
     .header {
-        height: 35vh;
+        height: 30vh;
         align-items: left;
-        padding: 0 1rem;
+        padding: 4rem 1rem 0;
+        font-size: 2rem;
     }
     .search {
-        width: 95%;
+        width: 90%;
+        top: 50%;
     }
 }

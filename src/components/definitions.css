@@ -11,3 +11,12 @@ span {
     margin: 10px 0;
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 767px) {
+    .definition li {
+        font-size: 1.6rem;
+    }
+    .definition h2 {
+        font-size: 2rem;
+    }
+}
