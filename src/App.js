@@ -3,7 +3,6 @@ import Header from "./components/Header"
 import './App.css';
 import Result from "./components/Result";
 import RandomWord from "./components/RandomWord";
-import Suggestion from "./components/Suggestion";
 
 
 export const SearchContext = createContext();
@@ -21,7 +20,6 @@ function App() {
     <SearchContext.Provider value={search}>
     <div className="App">
       <Header />
-      <Suggestion />
      {!searchValue && <RandomWord />}
       <Result />
     </div>

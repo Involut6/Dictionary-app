@@ -28,14 +28,10 @@
 
 /* Suggestion */
 .suggestion {
-    border: 1px solid grey;
-    position: absolute;
-    top: 30vh;
-    left: 20vw;
+    border: 1px 0 solid grey;
+    width: 100%;
     background-color: #fff;
     font-size: 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Random */
