@@ -1,7 +1,7 @@
 .suggestions {
     background-color: #fff;
     position: absolute;
-    bottom: -95%;
+    bottom: -99%;
     left: 3.3%;
     box-shadow: 0 0 2px 4px 0 rgb(0, 0, 0, 0.3);
     width: 62%;
@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 767px) {
     .suggestions {
-        bottom: -121%;
+        bottom: -131%;
         left: 5.5%;
         width: 84%;}
 }
