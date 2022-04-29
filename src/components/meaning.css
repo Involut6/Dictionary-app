@@ -3,3 +3,9 @@
     padding: 2rem 0;
     border-bottom: 1px solid grey;
 }
+
+@media only screen and (max-width: 767px) {
+    .meaning {
+        padding: 0;
+    }
+}
