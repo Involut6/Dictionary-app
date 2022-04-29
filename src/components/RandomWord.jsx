@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-import Word from "./Word";
+import Word from './Word';
+import './randomWord.css';
 
 const RandomWord = () => {
     const [response, setResponse] = useState(null);

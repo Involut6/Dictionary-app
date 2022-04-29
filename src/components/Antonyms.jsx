@@ -1,4 +1,5 @@
 import React from 'react'
+import './antonyms.css';
 
 const Antonyms = ({ meaning }) => {
   return (

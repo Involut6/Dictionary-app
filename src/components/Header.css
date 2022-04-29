@@ -43,22 +43,8 @@ input:focus{
         height: 35vh;
         align-items: left;
         padding: 0 1rem;
-        font-size: 5rem;
     }
     .search {
         width: 95%;
-    }
-    .random, .result {
-        padding: 0 1rem;
-        /* justify-content: center; */
-    }
-    .error, .loading, .random h1, .result h1 {
-        font-size: 5rem;
-    }
-    h4, .intro, .syn, .ant, .result li, span, p{
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 4rem;
     }
 }

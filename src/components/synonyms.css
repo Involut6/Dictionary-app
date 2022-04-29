@@ -1,0 +1,15 @@
+.syn {
+    background-color: #0B0C10;
+    color: #fff;
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 3px 3px;
+    font-size: 2rem;
+}
+
+.syns h4 {
+    margin-bottom: 0;
+    font-size: 2rem;
+}

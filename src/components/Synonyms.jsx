@@ -1,5 +1,6 @@
 import React from 'react'
 import { nanoid } from 'nanoid'
+import './synonyms.css';
 
 const Synonyms = ({ meaning }) => {
   return (
