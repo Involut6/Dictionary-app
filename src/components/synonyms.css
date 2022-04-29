@@ -7,11 +7,13 @@
     text-align: center;
     margin: 5px 3px 3px;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .syns h4 {
-    margin-bottom: 0;
+    margin: 1rem 0 0;
     font-size: 2rem;
+    color: #288d8d;
 }
 
 @media only screen and (max-width: 767px) {
