@@ -26,6 +26,18 @@
     font-size: 4.5rem;
 }
 
+/* Suggestion */
+.suggestion {
+    border: 1px solid grey;
+    position: absolute;
+    top: 30vh;
+    left: 20vw;
+    background-color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Random */
 .random {
     padding-top: 50px;

@@ -1,10 +1,10 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { SearchContext } from "../App";
 import "./Header.css";
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 
 const Header = () => {
-  const [inputValue, setInputValue] = useState("");
+  const { inputValue, setInputValue } = useContext(SearchContext);
   const { searchValue, setSearchValue } = useContext(SearchContext);
 
   const handleChange = e => {
@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <div className="header pad-40-left">
       <div className="title">
-        <h1>Dictionary</h1>
+        <h1>Dictionarys</h1>
         <p className="intro">Get familiar with words</p>
       </div>
       <div className="search">
