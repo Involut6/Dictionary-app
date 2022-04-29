@@ -4,8 +4,9 @@
     font-weight: bolder;
 }
 
-.word h1 {
+.searchWord {
     font-size: 4.5rem;
+    font-weight: bolder;
 }
 
 h2 {
@@ -29,7 +30,7 @@ p {
         font-size: 3.5rem;
     }
 
-    h1 {
+    .searchWord {
         font-size: 3rem;
     }
 

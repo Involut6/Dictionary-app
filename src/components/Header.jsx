@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { SearchContext } from '../App';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import './Header.css';
+import Suggestion from './Suggestion';
 
 const Header = () => {
   const { inputValue, setInputValue } = useContext(SearchContext);
@@ -40,6 +41,7 @@ const Header = () => {
         <SearchRoundedIcon sx={{ fontSize: 30, color: "black" }} onClick={handleClick} />
       </div>
       {searchValue && <p className="intro">Search result for {searchValue}:</p>}
+      {inputValue && <Suggestion />}
     </div>
   );
 };
