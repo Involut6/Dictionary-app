@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #0B0C10;
+    background-color: teal;
     font-family: Montserrat;
     color: #66fcf1;
     font-size: 3rem;
@@ -40,13 +40,19 @@ input {
 input:focus{
     outline: none;
 }
-
+@media screen and (max-width: 600px) {
+    .header {
+      background-color: olive;
+    }
+  }
+/* 
 @media only screen and (max-width: 767px) {
     .header {
         height: 25vh;
         align-items: left;
         padding-left: 1rem;
         font-size: 6rem;
+        background-color: red;
     }
     .title{
         text-align: left;
@@ -66,4 +72,4 @@ input:focus{
     h2 {
         font-size: 4.5rem;
     }
-}
+} */
