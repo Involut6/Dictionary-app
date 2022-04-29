@@ -37,7 +37,7 @@ const Header = () => {
           value={inputValue}
           onKeyDown={handleKeyDown}
         />
-        <SearchRoundedIcon sx={{ fontSize: 40, color: "black" }} onClick={handleClick} />
+        <SearchRoundedIcon sx={{ fontSize: 30, color: "black" }} onClick={handleClick} />
       </div>
       {searchValue && <p className="intro">Search result for {searchValue}:</p>}
     </div>

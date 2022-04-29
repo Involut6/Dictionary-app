@@ -3,16 +3,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    background-color: teal;
+    background-color: black;
     font-family: Montserrat;
+    padding-left: 4rem;
     color: #66fcf1;
     font-size: 3rem;
   
-}
-
-.title{
-    text-align: center;
 }
 
 .intro {
@@ -31,7 +27,7 @@
 }
 
 input {
-    width: 92%;
+    width: 95%;
     font-size: 2rem;
     border: none;
     padding: .4rem ;
@@ -40,36 +36,29 @@ input {
 input:focus{
     outline: none;
 }
-@media screen and (max-width: 600px) {
-    .header {
-      background-color: olive;
-    }
-  }
-/* 
+
+
 @media only screen and (max-width: 767px) {
     .header {
-        height: 25vh;
+        height: 35vh;
         align-items: left;
-        padding-left: 1rem;
-        font-size: 6rem;
-        background-color: red;
-    }
-    .title{
-        text-align: left;
+        padding: 0 1rem;
+        font-size: 5rem;
     }
     .search {
         width: 95%;
     }
-    .random .result {
-        padding-left: 1rem;
+    .random, .result {
+        padding: 0 1rem;
+        /* justify-content: center; */
     }
     .error, .loading, .random h1, .result h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     h4, .intro, .syn, .ant, .result li, span, p{
         font-size: 3rem;
     }
     h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
-} */
+}
