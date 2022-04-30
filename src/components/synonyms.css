@@ -1,13 +1,20 @@
 .syn {
-    background-color: #0B0C10;
-    color: #fff;
-    border-radius: 10px;
+    background-color: transparent;
+    color: #288d8d;
+    font-weight: bold;
+    border: 3px solid #288d8d;
+    border-radius: 15px;
     padding: 3px 10px;
     display: inline-block;
     text-align: center;
     margin: 5px 3px 3px;
     font-size: 2rem;
     cursor: pointer;
+}
+
+.syn:hover {
+    color: #fff;
+    background-color:#288d8d;
 }
 
 .syns h4 {

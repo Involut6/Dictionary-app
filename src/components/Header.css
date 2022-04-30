@@ -56,7 +56,11 @@ input:focus{
 
 .suggestion {
     font-size: 2rem;
-    border-top: 1px solid rgb(233, 228, 228);
+    padding: 5px 0;
+}
+
+.suggestion:hover {
+    border-bottom: 3px solid #288d8d;
 }
 
 .suggestion:hover {
