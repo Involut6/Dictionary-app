@@ -22,7 +22,7 @@ const Word = ({ data, random }) => {
       {data ? <div className='word'>
           <span className='searchWord'>{data[0].word.toUpperCase()}</span>
           <VolumeUpRoundedIcon sx={{ fontSize: 30 }} onClick={pronounce}/>
-          <p>{data[0].phonetic === ""? data.map(phonetic => phonetic.phonetic): data[0].phonetic}</p>
+          <p className='phonetic'>{data[0].phonetic === ""? data.map(phonetic => phonetic.phonetic): data[0].phonetic}</p>
       </div>: (random && <div>
                     <span className='newWord'>New word</span><LightbulbSharpIcon sx={{color: "aqua", fontSize: 30}} />
                     <h2>{random[0].word}</h2>

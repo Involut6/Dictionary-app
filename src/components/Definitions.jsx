@@ -9,7 +9,7 @@ const Definitions = ({ meaning }) => {
         {meaning.definitions.map(def => 
         <div key={nanoid()}>
             <strong><li key={nanoid()}>{def.definition}</li></strong>
-            {def.example?<span className="sample"><strong>Example:</strong> </span>:null}<span key={nanoid()}>{def.example}</span>
+            {def.example?<span className="sample"><strong>Example:</strong> </span>:null}<span key={nanoid()}><em>{def.example}</em></span>
         </div>)}
     </div>
   )

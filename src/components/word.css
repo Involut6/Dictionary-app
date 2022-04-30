@@ -1,23 +1,28 @@
 .newWord {
     color: #0B0C10;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .searchWord {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 h2 {
     color: #1f2833;
     font-size: 3rem;
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 span {
     margin: 5px 0;
     font-size: 2rem;
+}
+
+.phonetic {
+    margin-top: 5px;
+    font-size: 2.5rem;
 }
 
 p {
