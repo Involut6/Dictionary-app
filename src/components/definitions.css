@@ -1,5 +1,5 @@
 span {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .definition h2 {
@@ -9,7 +9,7 @@ span {
 
 .definition li {
     margin: 10px 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 767px) {

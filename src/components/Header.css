@@ -41,7 +41,7 @@
 
 input {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.6rem;
     border: none;
     padding: .4rem ;
    
@@ -55,16 +55,12 @@ input:focus{
 }
 
 .suggestion {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 5px 0;
 }
 
 .suggestion:hover {
     border-bottom: 3px solid #288d8d;
-}
-
-.suggestion:hover {
-    background-color: #f0f0f0;
 }
 
 @media only screen and (max-width: 767px) {
